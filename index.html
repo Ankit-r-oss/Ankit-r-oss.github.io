@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(87, 0, 128, 0.692) color: antiquewhite;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgba(128, 0, 111, 0.705)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav ul li a:hover {
+            color: rgb(82, 82, 177);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: oldlace;
+            background: rgb(47, 13, 128);
+            height: 1.2px;
+            margin: 40px 04px;
+
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: rgb(58, 124, 80);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+        .rightSection img {
+            width: 130%;
+        }
+
+        .blue {
+            color: blueviolet;
+        }
+
+        .textgray {
+            color: gray;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondSection {
+            max-width: 70vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: rgb(116, 28, 28);
+            width: 76vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 80px;
+            width: 1px;
+            background-color: rgb(116, 28, 28);
+            margin: 0 110px;
+
+        }
+
+        .image-top {
+            width: 48px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 200px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 4px;
+            color: black;
+            font-size: 9px;
+            width: 140px;
+        }
+
+        footer {
+            background-color: rgb(170, 129, 170);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        } 
+
+        footer .footer-rights{
+            text-align: center;
+            color: red;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ankit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="blue">Ankit</span>
+
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="png developer.jpg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What have i done so far</span>
+
+            <h1>Past Experiences</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Skills shown on example resumes of HTML Developers include producing HTML emails and landing
+                        pages for marketing communications of a search engine company, manage a small team of
+                        developers.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="instragram.jpg" alt="">
+                    <div class="vertical-text">
+                        Instagram (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Skills shown on example resumes of HTML Developers include producing HTML emails and landing
+                        pages for marketing communications of a search engine company, manage a small team of
+                        developers.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html download.png" alt="">
+                    <div class="vertical-text">
+                        Node.js Developer (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Skills shown on example resumes of HTML Developers include producing HTML emails and landing
+                        pages for marketing communications of a search engine company, manage a small team of
+                        developers.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="twitter.jpg" alt="">
+                    <div class="vertical-text">
+                        Twitter (2014-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Skills shown on example resumes of HTML Developers include producing HTML emails and landing
+                        pages for marketing communications of a search engine company, manage a small team of
+                        developers.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="facebook.png" alt="">
+                    <div class="vertical-text">
+                        Meta (2020-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Skills shown on example resumes of HTML Developers include producing HTML emails and landing
+                        pages for marketing communications of a search engine company, manage a small team of
+                        developers.
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ankit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; ankitsportfolio.com | All rights reserved
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
